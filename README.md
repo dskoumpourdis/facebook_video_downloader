@@ -7,23 +7,23 @@ Project files and hierarchy
 
 fb_info_parser_top.sh
 
-  fb_video_folder_creator.sh
+	fb_video_folder_creator.sh
 
-  fb_video_info_downloader.sh
+	fb_video_info_downloader.sh
 
-  fb_video_json_cleaner.sh
+	fb_video_json_cleaner.sh
 
-  fb_video_links_id_parser.sh
+	fb_video_links_id_parser.sh
 
-  fb_video_cdn_link_updater.sh
+	fb_video_cdn_link_updater.sh
 
-  fb_video_json_cdn_cleaner.sh
+	fb_video_json_cdn_cleaner.sh
 
-  fb_video_views_parser.sh
+	fb_video_views_parser.sh
 
-  fb_video_dates_parser.sh
+	fb_video_dates_parser.sh
 
-  fb_video_length_parser.sh
+	fb_video_length_parser.sh
 
 fb_video_downloader_top.sh
 
@@ -53,8 +53,7 @@ fb_video_folder_creator.sh
 
 fb_video_info_downloader.sh
 
-    Invokes the facebook PHP API using the app id and your personal app secret key. A new access token is required
-    each time the app is used as they have a rather short period of expiration. This script returns the id and the permalink_url     of the 24 most recently posted videos from each page in the facebook_pages.txt file in a json file named and situated as 	     needed.
+    Invokes the facebook PHP API using the app id and your personal app secret key. A new access token is required each time the app is used as they have a rather short period of expiration. This script returns the id and the permalink_url of the 24 most recently posted videos from each page in the facebook_pages.txt file in a json file named and situated as needed.
 
 fb_video_json_cleaner.sh
 
